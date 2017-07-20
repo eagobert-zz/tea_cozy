@@ -108,6 +108,12 @@ header {
   margin: auto;
 }
 
+.bottomcontent,
+.bottomcontent h2 {
+  display: flex;
+  margin: 0;
+}
+
 .bottomboxes {
   display: flex;
   justify-content: space-around;
