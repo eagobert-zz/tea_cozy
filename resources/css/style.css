@@ -30,6 +30,7 @@ header {
 
 .maincontent {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -55,7 +56,30 @@ header {
 }
 
 .middle {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
 
+.middlecontent {
+  text-align: center;
+}
+
+.middleimages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.image {
+  padding: 15px;
+}
+
+.image h4 {
+  text-align: center;
 }
 
 .bottom {
